@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{C9FBFE46-48B6-4F9B-D703-339AA2E68FB9}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CPPTutorialBasics",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "LightSpeedPoly",
+			"Enabled": true
+		}
+	]
+}
